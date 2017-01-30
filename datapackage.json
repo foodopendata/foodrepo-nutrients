@@ -1,0 +1,30 @@
+{
+  "name": "openfood-ch-nutrients",
+  "title": "Openfood.ch nutrients data",
+  "format": "csv",
+  "datapackage_version": "1.0.0",
+  "last_modified": "2017-01-14",
+  "licenses": [
+    {
+      "type": "ODC-PDDL-1.0",
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Openfood.ch nutrients data",
+      "web": "https://www.openfood.ch/api/"
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://raw.github.com/schoolofdata-ch/openfood-ch-nutrients/master/data/openfood-ch-nutrients.csv",
+      "path": "data/openfood-ch-nutrients.csv",
+      "schema": {}
+    }
+  ],
+  "maintainers":[{
+    "name": "School of Data CH",
+    "web": "https://schoolofdata.ch/"
+  }]
+}
