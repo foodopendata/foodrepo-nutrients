@@ -1,10 +1,10 @@
-Nutrient data from Openfood.ch provided as a [Simple Data Format Data Package](http://dataprotocols.readthedocs.io/en/latest/simple-data-format.html).
+Nutrient data from [OpenFood.ch](http://openfood.ch) provided as a [Simple Data Format Data Package](http://dataprotocols.readthedocs.io/en/latest/simple-data-format.html).
 
-This dataset was compiled at a [School of Data](http://schoolofdata.ch) workshop in preparation for the [Open Food Hackdays](http://food.opendata.ch).
+This dataset was compiled at a [School of Data](http://schoolofdata.ch) workshop in preparation for the [Open Food Hackdays](http://food.opendata.ch).The goal of this data package is to  make it easier for participants to discover the dataset at the upcoming hackdays, to make it available in a mirror and in multiple formats.
 
 ## Data
 
-Data comes from the [Openfood.ch API](). We thought it would make it easier for participants to discover the data at the upcoming hackdays if it were available in multiple formats, and reduce load on the servers by caching the data.
+A snapshot of data from the [OpenFood API](https://www.openfood.ch/api-docs/swaggers/v2) is provided here, collected and updated using a Makefile script.
 
 ## Preparation
 
@@ -19,7 +19,7 @@ make build
 
 This Data Package is licensed by its maintainers under the Public Domain Dedication and License.
 
-The original terms of the data republished follow: 
+The original terms of the data republished follow:
 
 > All Content (other than computer software) made available by OpenFood on the websites, apps or services is licensed under the Creative [Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), unless marked otherwise. Please note that images may contain copyrighted data (such as brand logos).
 
