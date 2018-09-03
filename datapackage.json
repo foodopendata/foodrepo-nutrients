@@ -12,7 +12,7 @@
   ],
   "sources": [
     {
-      "name": "FoodRepo.org API",
+      "title": "FoodRepo.org API",
       "web": "https://www.foodrepo.org/api-docs/"
     }
   ],
@@ -20,7 +20,50 @@
     {
       "url": "https://raw.github.com/schoolofdata-ch/foodrepo-nutrients/master/data/foodrepo-nutrients.csv",
       "path": "data/foodrepo-nutrients.csv",
-      "schema": {}
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "attributes/name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "attributes/name-translations/de",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "attributes/name-translations/en",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "attributes/name-translations/fr",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "attributes/name-translations/it",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "attributes/unit",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
     }
   ],
   "maintainers":[{
