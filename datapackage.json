@@ -1,9 +1,9 @@
 {
-  "name": "openfood-ch-nutrients",
-  "title": "Openfood.ch nutrients data",
+  "name": "foodrepo-nutrients",
+  "title": "FoodRepo.org nutrients data",
   "format": "csv",
-  "datapackage_version": "1.0.0",
-  "last_modified": "2017-01-14",
+  "datapackage_version": "1.0.1",
+  "last_modified": "2018-09-04",
   "licenses": [
     {
       "type": "ODC-PDDL-1.0",
@@ -12,14 +12,14 @@
   ],
   "sources": [
     {
-      "name": "Openfood.ch nutrients data",
-      "web": "https://www.openfood.ch/api/"
+      "name": "FoodRepo.org API",
+      "web": "https://www.foodrepo.org/api-docs/"
     }
   ],
   "resources": [
     {
-      "url": "https://raw.github.com/schoolofdata-ch/openfood-ch-nutrients/master/data/openfood-ch-nutrients.csv",
-      "path": "data/openfood-ch-nutrients.csv",
+      "url": "https://raw.github.com/schoolofdata-ch/foodrepo-nutrients/master/data/foodrepo-nutrients.csv",
+      "path": "data/foodrepo-nutrients.csv",
       "schema": {}
     }
   ],

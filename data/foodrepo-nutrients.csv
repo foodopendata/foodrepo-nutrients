@@ -1,0 +1,45 @@
+id,type,attributes/name,attributes/name-translations/de,attributes/name-translations/en,attributes/name-translations/fr,attributes/name-translations/it,attributes/unit
+7,nutrients,Salt,Salz,Salt,Sel,Sale,g
+26,nutrients,Vitamin K,Vitamin K,Vitamin K,Vitamine K,Vitamina K,µg
+24,nutrients,Vitamin B6 (Pyridoxin),Vitamin B6 (Pyridoxin),Vitamin B6 (Pyridoxin),Vitamine B6 (Pyridoxine),Vitamina B6 (Piridossina),mg
+21,nutrients,Vitamin B3 (Niacin),Vitamin B3 (Niacin),Vitamin B3 (Niacin),Vitamine B3 (Niacine),Vitamina B3 (Niacina),mg
+19,nutrients,Vitamin D (Cholacalciferol),Vitamin D (Cholacalciferol),Vitamin D (Cholacalciferol),Vitamine D (Cholacalciferol),Vitamina D (Cholacalciferol),µg
+32,nutrients,Monounsaturated fatty acids,Einfach ungesättigte Fettsäuren,Monounsaturated fatty acids,Acides gras monoinsaturés,Acidi grassi monoinsaturi,g
+31,nutrients,Omega-3 fatty acids,Omega-3-Fettsäuren,Omega-3 fatty acids,Acides gras omega-3,Acidi grassi omega-3,g
+2,nutrients,Energy (kCal),Energie (kCal),Energy (kCal),Énergie (kCal),Energia (kCal),kCal
+1,nutrients,Energy,Energie,Energy,Énergie,Energia,kJ
+14,nutrients,Vitamin E (Tocopherol),Vitamin E (Tocopherol),Vitamin E (Tocopherol),Vitamine E (Tocopherol),Vitamina E (Tocopherol),mg
+34,nutrients,Biotin,Biotin,Biotin,Biotine,Biotina,µg
+5,nutrients,Carbohydrates,Kohlenhydrate,Carbohydrates,Glucides,Carboidrati,g
+6,nutrients,Sugars,Zucker,Sugars,Sucres,Zuccheri,g
+3,nutrients,Protein,Eiweiss,Protein,Protéines,Proteine,g
+13,nutrients,Selenium,Selen,Selenium,Selenium,Selenio,µg
+4,nutrients,Fat,Fett,Fat,Matières grasses,Grassi,g
+8,nutrients,Fiber,Ballaststoffe,Fiber,Fibres alimentaires,Fibre,g
+39,nutrients,Saccharose,Saccharose,Saccharose,Saccharose,Saccarosio,g
+17,nutrients,Iron,Eisen,Iron,Fer,Ferro,mg
+25,nutrients,Folic acid,Folsäure,Folic acid,Acide folique,Acido folico,µg
+37,nutrients,Fructose,Fructose,Fructose,Fructose,Fruttosio,g
+38,nutrients,Glucose,Glucose,Glucose,Glucose,Glucosio,g
+29,nutrients,Iodine,Jod,Iodine,Iode,Iodio,µg
+15,nutrients,Calcium,Kalzium,Calcium,Calcium,Calcio,mg
+36,nutrients,Lactose,Laktose,Lactose,Lactose,Lattosio,g
+40,nutrients,Cholesterol,Cholesterin,Cholesterol,Cholestérol,Colesterolo,mg
+12,nutrients,Sodium,Natrium,Sodium,Sodium,Sodio,g
+28,nutrients,Phosphorus,Phosphor,Phosphorus,Phosphore,Fosforo,mg
+33,nutrients,Polyols,Polyols,Polyols,Polyols,Polyols,g
+18,nutrients,Vitamin A,Vitamin A,Vitamin A,Vitamine A,Vitamina A,µg
+20,nutrients,Vitamin B1 (Thiamin),Vitamin B1 (Thiamin),Vitamin B1 (Thiamin),Vitamine B1 (Thiamine),Vitamina B1 (Tiamina),mg
+27,nutrients,Vitamin B12 (Cobalamin),Vitamin B12 (Cobalamin),Vitamin B12 (Cobalamin),Vitamine B12 (Cobalamine),Vitamina B12 (Cobalamina),µg
+11,nutrients,Vitamin B2 (Riboflavin),Vitamin B2 (Riboflavin),Vitamin B2 (Riboflavin),Vitamine B2 (Riboflavine),Vitamina B2 (Riboflavin),mg
+23,nutrients,Vitamin B5 (Panthothenic acid),Vitamin B5 (Pantothensäure),Vitamin B5 (Panthothenic acid),Vitamine B5 (acide pantothénique),Vitamina B5 (acido pantotenico),mg
+9,nutrients,Saturated fat,Gesättigte Fettsäuren,Saturated fat,Acides gras saturés,Acidi grassi saturi,g
+10,nutrients,Vitamin C (Ascorbic acid),Vitamin C (Askorbinsäure),Vitamin C (Ascorbic acid),Vitamine C (Acide ascorbique),Vitamina C (Acido ascorbico),mg
+22,nutrients,Zinco,Zink,Zinco,Zinc,Zinc,mg
+16,nutrients,Magnesium,Magnesium,Magnesium,Magnesium,Magnesio,mg
+41,nutrients,Omega-6 fatty acids,Omega-6-Fettsäuren,Omega-6 fatty acids,Acides gras omega-6,Acidi grassi omega-6,g
+30,nutrients,Polyunsaturated fatty acids,Mehrfach ungesättigte Fettsäuren,Polyunsaturated fatty acids,Acides gras poly-insaturés,Acidi grassi polinsaturi,g
+43,nutrients,Nitrate,Nitrat,Nitrate,Nitrate,Nitrato,mg
+44,nutrients,Silica,Silicium,Silica,Silice,Silicio,mg
+42,nutrients,Sulfate,Sulfat,Sulfate,Sulfate,Sulfato,mg
+35,nutrients,Provitamin A (β-carotene),Provitamin A (β-Carotin),Provitamin A (β-carotene),Provitamine A (β-carotène),Provitamina A (β-carotene),mg

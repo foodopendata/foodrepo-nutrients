@@ -17,15 +17,19 @@
 # You should have received a copy of the GNU General Public License
 # along with the Data Package. If not, see <http://www.gnu.org/licenses/>.
 
-API_URL = https://www.openfood.ch/api/v1
-DATA_N1 = openfood-ch-nutrients
+API_URL = https://www.foodrepo.org/api/v2
+DATA_N1 = foodrepo-nutrients
 
 all: build
 
 build: fetch-nutrients conv-nutrients
 
+# See https://www.foodrepo.org/api-docs/swaggers/v3
+# fetch-products:
+# 	curl -L $(API_URL)/products?size%5D=200 > data/products-$(DATA_N1).json
+
 fetch-nutrients:
-	curl -L $(API_URL)/nutrients > data/$(DATA_N1).json
+	curl -X GET --header "Accept: application/json" --header "Authorization: Token token=${FOODREPO}" -L $(API_URL)/nutrients > data/$(DATA_N1).json
 
 conv-nutrients:
 	. `pwd`/.env/bin/activate; cd data && in2csv -k data $(DATA_N1).json > $(DATA_N1).csv

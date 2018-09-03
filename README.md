@@ -1,18 +1,20 @@
-Nutrient data from [OpenFood.ch](http://openfood.ch) provided as a [Simple Data Format Data Package](http://dataprotocols.readthedocs.io/en/latest/simple-data-format.html).
+Nutrient data from [FoodRepo.org](https://foodrepo.org) provided as a [Simple Data Format Data Package](http://dataprotocols.readthedocs.io/en/latest/simple-data-format.html).
 
 This dataset was compiled at a [School of Data](http://schoolofdata.ch) workshop in preparation for the [Open Food Hackdays](http://food.opendata.ch).The goal of this data package is to  make it easier for participants to discover the dataset at the upcoming hackdays, to make it available in a mirror and in multiple formats.
 
 ## Data
 
-A snapshot of data from the [OpenFood API](https://www.openfood.ch/api-docs/swaggers/v2) is provided here, collected and updated using a Makefile script.
+A snapshot of data from the [FoodRepo API](https://www.foodrepo.org/api-docs/swaggers/v2) is provided here, collected and updated using a Makefile script.
 
 ## Preparation
 
 The `curl` and Python `in2csv` tools were used to convert data from the JSON API into a CSV table.
 
-This command fetches the current data and creates a JSON and CSV file in the *data* subfolder.
+First, obtain an API token by creating an account, logging in, going into *My Settings*, then pressing the *API Keys* button.
+
+This command fetches the current data and creates a JSON and CSV file in the *data* subfolder with your key:
 ```
-make build
+FOODREPO=myapikey1234 make build
 ```
 
 ## License
